@@ -1,0 +1,7 @@
+/dist/
+/vendor/
+/node_modules/
+composer.lock
+.DS_Store
+config.json
+/.idea

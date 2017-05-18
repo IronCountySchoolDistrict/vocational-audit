@@ -1,0 +1,19 @@
+<!-- attendance-review insertion point start -->
+<script type="text/template" id="vocational-audit-template">
+  <br />
+  <a href="vocational-audit.html?sectionid=~[gpv:sectionid]">Vocational Audit Report</a>
+</script>
+
+
+<script>
+  require.config({
+    paths: {
+      vocationalAudit: '/scripts/vocational-audit/vocational-audit'
+    }
+  });
+
+  require(['vocationalAudit'], function(vocationalAudit) {
+    vocationalAudit.init();
+  });
+</script>
+<!-- attendance-review insertion point end -->
